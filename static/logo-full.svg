@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   version="1.1"
+   viewBox="0 0 48 48"
+   id="svg8"
+   sodipodi:docname="logo-full.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4820">
+      <stop
+         style="stop-color:#0f172a;stop-opacity:1;"
+         offset="0"
+         id="stop4816" />
+      <stop
+         style="stop-color:#050a1c;stop-opacity:1;"
+         offset="1"
+         id="stop4818" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4820"
+       id="linearGradient4822"
+       x1="24"
+       y1="0"
+       x2="24"
+       y2="48"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="8.6354167"
+     inkscape:cx="15.112183"
+     inkscape:cy="30.803378"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <rect
+     style="fill:url(#linearGradient4822);fill-opacity:1"
+     id="rect3805"
+     width="48"
+     height="48"
+     x="0"
+     y="0"
+     ry="6.7137898e-15" />
+  <circle
+     cx="24"
+     cy="24"
+     r="16.936068"
+     fill="#ea580c20"
+     id="circle2"
+     style="fill:#ea580c;fill-opacity:0.288952;stroke-width:0.705669" />
+  <circle
+     cx="24"
+     cy="24"
+     r="14.11339"
+     fill="#ea580c50"
+     id="circle4"
+     style="fill:#ea580c;fill-opacity:0.209632;stroke-width:0.705669" />
+  <circle
+     cx="24"
+     cy="24"
+     r="11.290711"
+     fill="#f97316"
+     id="circle6"
+     style="stroke-width:0.705669" />
+</svg>
