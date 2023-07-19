@@ -20,7 +20,7 @@
 	let rng = Math.random();
 
 	if (isMaxed) {
-		// To max fakeouts (exciting)
+		// To orange fakeouts
 		// 10% chance of faking a One
 		// 20% chance of faking a normal
 		// 10% chance of faking a fakeout
@@ -34,7 +34,7 @@
 			fakeMaxed = true;
 		}
 	} else if (isOne) {
-		// To one fakeouts (frustrating)
+		// To grey fakeouts
 		// 10% chance of faking a Max
 		// 20% chance of faking a normal
 		// 10% chance of faking a fakeout
@@ -47,18 +47,19 @@
 			suspense = true;
 			fakeOne = true;
 		}
-	} else {
-		// Normal fake outs
-		// 5% chance of faking a Max
-		// 10% chance of faking a one
+	} else if (Math.random() < 1 / Math.max(maxValue - 2, 6)) {
+		// A "to white" fakeout has the same odds as getting a 1 or maxValue
+		// To white fake outs
+		// 10% chance of faking a Max
+		// 20% chance of faking a one
 		// 10% chance of faking a fakeout
-		if (rng < 0.05) {
+		if (rng < 0.1) {
 			suspense = true;
 			fakeMaxed = true;
-		} else if (rng < 0.15) {
+		} else if (rng < 0.3) {
 			suspense = true;
 			fakeOne = true;
-		} else if (rng < 0.25) {
+		} else if (rng < 0.4) {
 			suspense = true;
 		}
 	}
