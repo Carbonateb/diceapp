@@ -47,19 +47,19 @@
 			suspense = true;
 			fakeOne = true;
 		}
-	} else if (Math.random() < 1 / Math.max(maxValue - 2, 6)) {
+	} else if (Math.random() < 1 / maxValue - 2) {
 		// A "to white" fakeout has the same odds as getting a 1 or maxValue
 		// To white fake outs
-		// 10% chance of faking a Max
-		// 20% chance of faking a one
-		// 10% chance of faking a fakeout
-		if (rng < 0.1) {
+		// 33% chance of faking a Max
+		// 33% chance of faking a one
+		// 33% chance of faking a fakeout
+		if (rng <= 0.333) {
 			suspense = true;
 			fakeMaxed = true;
-		} else if (rng < 0.3) {
+		} else if (rng < 0.667) {
 			suspense = true;
 			fakeOne = true;
-		} else if (rng < 0.4) {
+		} else {
 			suspense = true;
 		}
 	}
