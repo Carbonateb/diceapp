@@ -2,6 +2,7 @@
 	import { onMount } from "svelte";
 	import Dice from "./Dice.svelte";
 	import { browser } from "$app/environment";
+	import ResultsStats from "./ResultsStats.svelte";
 
 	let numDice = 1;
 	let numSides = 6;
@@ -50,6 +51,7 @@
 					{/each}
 				{/key}
 			</div>
+			<ResultsStats {diceResults} />
 		{:else}
 			<div
 				class="flex flex-grow flex-col items-center justify-center text-center"
